@@ -1,0 +1,214 @@
+*  {
+    margin: 0;
+    padding: 0;
+    font: "SF Pro Text", "SF Pro Icons", "Helvetica", "Arial", sans-serif;
+    color: #f5f5f7;
+}
+
+body {
+    background-color: #000;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d0c0c;
+    padding: 15px;
+}
+
+.nav-item {
+    color: #c0c0c0;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 20px 0 20px;
+}
+
+.nav-image {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.nav-item:hover {
+    color: #f5f5f7;
+  }
+
+.main-section { 
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    color: white; 
+    z-index: 2;
+    text-align: center;
+    font-size: 55px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+.heading-iphone14-pro {
+    color:#000; 
+    z-index: 2;
+    text-align: center;
+    font-size: 55px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+.play-button {
+    max-width: 15px;
+    max-height: 15px;
+  }
+
+.announce-button {
+    border: none;
+    font-size: 17px;
+    padding: 15px 1px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(
+        107deg,
+        rgb(233, 95, 51),
+        rgb(204, 24, 198),
+        rgb(70, 152, 255),
+        rgb(37, 101, 244)
+    );
+    border-radius: 980px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.button-text {
+    border: 2px solid transparent;
+    border-radius: 980px;
+    background-clip: padding-box;
+    background-color: #000;
+    color: #f5f5f7;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 13px 12px 13px 12px;
+}
+
+.secondary-section {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-heading {
+    font-size: 28px;
+    line-height: 1.1;
+    font-weight: 400;
+    margin-top: 6px;
+    text-align: center;
+    z-index: 2;
+}
+
+.sub-heading-iphone14-pro {
+    color:#000; 
+    font-size: 28px;
+    line-height: 1.1;
+    font-weight: 400;
+    margin-top: 6px;
+    text-align: center;
+    z-index: 2;
+}
+
+.callout {
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6e6e73;
+    margin-top: 15px;
+}
+
+.links-text {
+    color: blue;
+    font-size: 21px;
+    line-height: 1.4;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: white solid 7px;
+    max-width: 100vw;
+}
+
+.grid-images {
+    max-width: 420px;
+    max-height: 420px;
+}
+
+.grid-images-homepod {
+    max-width: 900px;
+    max-height: 900px;
+}
+
+.grid-images-watch {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.grid-images-watch-8 {
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.grid-images-iphone-14-pro {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+.callout-watch {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+.apple-logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+  
+.sub-heading-watch {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #880808;
+}
+  
+#white-bg {
+    background-color: white;
+}
+  
+#black-text {
+    color: black;
+}
+  
+.footer-text {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+  
