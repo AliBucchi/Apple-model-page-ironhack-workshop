@@ -1,1 +1,2 @@
-Modelos em HTML e CSS de webpage Apple, referência utlizada em workshop do Ironhack PT. 
+Description: 
+HTML and CSS templates for an Apple webpage, a reference used in an Ironhack PT workshop.
